@@ -1,0 +1,923 @@
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: inherit;
+    text-decoration: none;
+    list-style: none;
+  }
+  /* Paginas de Apresentação */
+  body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .section1 {
+    background: url(../assets/index1.jpeg) center center / cover no-repeat;
+    display: grid;
+    min-height: 900px;
+    position: relative;
+  }
+  .group {
+    display: grid;
+    flex-grow: 1;
+    margin: 13px 10px 183px 8px;
+    min-height: 704px;
+    position: relative;
+  }
+  .linhaCabecalho {
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    left: -12px;
+    position: absolute;
+    right: -7px;
+    top: 110px;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  .flex_col > .containerLogo {
+    display: grid;
+  }
+  .logo {
+    flex-grow: 1;
+    height: 90px;
+    margin: 0px 580px;
+    object-fit: cover;
+    width: 300px;
+  }
+  .flex_col > .cell1 {
+    display: grid;
+    margin-top: -107px;
+  }
+  .botaoPedir {
+    background-color: rgba(0, 0, 0, 0.898);
+    border-radius: 4px 4px 4px 4px;
+    flex-grow: 1;
+    height: 40px;
+    margin: 10px 17px 0px 1230px;
+    outline: 1px solid rgb(255, 255, 255);
+    width: 174px;
+  }
+  .flex_col > .cell2 {
+    display: grid;
+    margin-top: -36px;
+  }
+  .textoPedir {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height: 27px;
+    justify-content: flex-end;
+    letter-spacing: 0px;
+    margin: 8px 38px 0;
+    text-align: right;
+    width: 1341px;
+  }
+  .flex_col > .cell3 {
+    display: grid;
+  }
+  .linhaDireita {
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    height: 0.5px;
+    margin: 0px 0px 0px 915px;
+    width: 580px;
+  }
+  .flex_col > .cell4 {
+    display: grid;
+  }
+  .linhaEsquerda {
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    height: 0.5px;
+    margin: 28px 870px 0px 1px;
+    width: 550px;
+  }
+  .flex_col > .cell5 {
+    display: grid;
+  }
+  .txtComercial {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 33px;
+    margin: 13px 114px 0px;
+    width: 1193px;
+  }
+  .flex_col > .cell6 {
+    display: grid;
+    margin-top: -33px;
+  }
+  .txtGestão {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 33px;
+    letter-spacing: 0px;
+    margin: 0px 379px;
+    width: 663px;
+  }
+  .flex_col > .cell7 {
+    display: grid;
+    margin-top: -33px;
+  }
+  .txtAdmin {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 33px;
+    justify-content: flex-end;
+    letter-spacing: 0px;
+    margin: 0px 318px;
+    text-align: right;
+    width: 785px;
+  }
+  .flex_col > .cell8 {
+    display: grid;
+    margin-top: -33px;
+  }
+  .txtIndustria {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 33px;
+    justify-content: flex-end;
+    letter-spacing: 0px;
+    margin: 0px 79px;
+    text-align: right;
+    width: 1263px;
+  }
+  .flex_col > .cell9 {
+    display: grid;
+  }
+  .txtTitulo {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
+    font-weight: 500;
+    font-size: 48px;
+    height: 186px;
+    letter-spacing: 0px;
+    margin: 279px 777px 0px 9px;
+    width: 635px;
+  }
+  .flex_col > .cell10 {
+    display: grid;
+    margin-top: -169px;
+  }
+  .fundoTexto {
+    background-color: rgba(0, 0, 0, 0.098);
+    border-radius: 40px 40px 40px 40px;
+    flex-grow: 1;
+    height: 288px;
+    margin: 0px 768px 0px 0px;
+    width: 653px;
+  }
+  .flex_col > .cell11 {
+    display: grid;
+    margin-top: -139px;
+  }
+  .txtDescricao {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
+    height: 145px;
+    letter-spacing: 0px;
+    margin: 0px 818px 0px 6px;
+    width: 597px;
+  }
+  .section2 {
+    display: grid;
+    min-height: 781px;
+    position: relative;
+  }
+  .imageBloco2 {
+    bottom: 0px;
+    height: 100%;
+    left: 0px;
+    object-fit: cover;
+    position: absolute;
+    right: 720px;
+    top: 0px;
+    width: 50%;
+  }
+  .tituloBloco2 {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    height: 168px;
+    left: 789px;
+    letter-spacing: 0px;
+    min-height: 168px;
+    position: absolute;
+    top: 121px;
+    width: 401px;
+  }
+  .descBloco2 {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    height: 234px;
+    left: 789px;
+    letter-spacing: 0px;
+    position: absolute;
+    top: 330.5px;
+    width: 473px;
+  }
+  .section3 {
+    display: grid;
+    min-height: 781px;
+    position: relative;
+  }
+  .descBloco3 {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    height: 250px;
+    left: 39px;
+    letter-spacing: 0px;
+    min-height: 250px;
+    position: absolute;
+    top: 329px;
+    width: 651px;
+  }
+  .tituloBloco3 {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    height: 168px;
+    left: 39px;
+    letter-spacing: 0px;
+    min-height: 168px;
+    position: absolute;
+    top: 130px;
+    width: 396px;
+  }
+  .imageBloco3 {
+    bottom: 0px;
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+  }
+  .section4 {
+    display: grid;
+    min-height: 781px;
+    position: relative;
+  }
+  .tituloBloco4 {
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    height: 168px;
+    left: 772px;
+    letter-spacing: 0px;
+    min-height: 168px;
+    position: absolute;
+    top: 96px;
+    width: 396px;
+  }
+  .descBloco4 {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    height: 312px;
+    left: 772px;
+    letter-spacing: 0px;
+    position: absolute;
+    top: 321px;
+    width: 651px;
+  }
+  .imageBloco4 {
+    height: 100%;
+    left: 0px;
+    object-fit: cover;
+    position: absolute;
+    right: 50%;
+    top: 0px;
+    width: 50%;
+  }
+  .rp {
+    display: grid;
+    min-height: 500px;
+    position: relative;
+  }
+  .linhaVertical {
+    background-color: rgb(255, 255, 255);
+    height: 311px;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    top: 65px;
+    width: 1px;
+  }
+    .btn-fazer {
+    width: 263px;
+    height: 58px;
+    position: static;
+    }
+    .btn-orcamento {
+    background: #000000;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 263px;
+    height: 58px;
+    position: absolute;
+    left: 630px;
+    top: 400px;
+    }
+    .txt-fazer {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    left: 675px;
+    top: 420px;
+    }
+  .copyright {
+    color: rgb(133, 133, 133);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    height: 17px;
+    left: 700px;
+    position: absolute;
+    top: 500px;
+    width: 134px;
+  }
+/* Pagina de cadastro e login */
+.fundoEscuro {
+  width: 533px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.fotoEsquerda {
+  width: 985px;
+  height: 1020px;
+  position: absolute;
+  left: 533px;
+  top: 0px;
+}
+.logo-inline-svg-1 {
+  width: 467px;
+  height: 53px;
+  position: absolute;
+  left: 25px;
+  top: 69px;
+  overflow: hidden;
+}
+.layer {
+  position: absolute;
+  left: 7.09px;
+  top: 8.83px;
+  overflow: visible;
+}
+.layer2 {
+  position: absolute;
+  left: 62.66px;
+  top: 9.42px;
+  overflow: visible;
+}
+.layer3 {
+  position: absolute;
+  left: 139.51px;
+  top: 9.42px;
+  overflow: visible;
+}
+.layer4 {
+  position: absolute;
+  left: 204.53px;
+  top: 9.42px;
+  overflow: visible;
+}
+.layer5 {
+  position: absolute;
+  left: 264.83px;
+  top: 9.42px;
+  overflow: visible;
+}
+.layer6 {
+  position: absolute;
+  inset: 0;
+}
+.layer7 {
+  width: 13.6px;
+  height: 21.79px;
+  position: static;
+}
+.layer8 {
+  position: absolute;
+  left: 367.1px;
+  top: 28.27px;
+  overflow: visible;
+}
+.layer10 {
+  width: 15.37px;
+  height: 21.79px;
+  position: static;
+}
+.layer11 {
+  position: absolute;
+  left: 384.24px;
+  top: 28.27px;
+  overflow: visible;
+}
+.layer13 {
+  width: 15.96px;
+  height: 21.79px;
+  position: static;
+}
+.layer14 {
+  position: absolute;
+  left: 403.16px;
+  top: 28.27px;
+  overflow: visible;
+}
+.layer16 {
+  position: absolute;
+  left: 423.85px;
+  top: 28.27px;
+  overflow: visible;
+}
+.nome-do-seu-projeto {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 290px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.txtbProjeto {
+  background: #414141;
+  color: #ffffff;
+  font: 400 24px "Lato", sans-serif;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  width: 430px;
+  height: 39px;
+  position: absolute;
+  left: 55px;
+  top: 333px;
+}
+.seu-e-mail {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 57px;
+  top: 434px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.txtbEmail {
+  background: #414141;
+  color: #ffffff;
+  font: 400 24px "Lato", sans-serif;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  width: 430px;
+  height: 39px;
+  position: absolute;
+  left: 57px;
+  top: 477px;
+}
+.txtbSenha {
+  background: #414141;
+  color: #ffffff;
+  font: 400 24px "Lato", sans-serif;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  width: 430px;
+  height: 39px;
+  position: absolute;
+  left: 57px;
+  top: 593px;
+}
+.junte-se-revolucao {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px "Exo", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 182px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.senha {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 57px;
+  top: 550px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.txtbNvm {
+  background: #414141;
+  color: #ffffff;
+  font: 400 24px "Lato", sans-serif;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  width: 430px;
+  height: 39px;
+  position: absolute;
+  left: 55px;
+  top: 717px;
+}
+.digite-novamente {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 674px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.btnCima {
+  background: #000000;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 263px;
+  height: 58px;
+  position: absolute;
+  left: 140px;
+  top: 798px;
+}
+.buttonCima {
+  border: none;
+  background: none;
+  color: #ffffff;
+  padding: 15px 70px;
+  text-align: center;
+  align-items: center;
+  font: 300 24px "Exo", sans-serif;
+  cursor: pointer;
+}
+.buttonCimaLogin {
+  border: none;
+  background: none;
+  color: #ffffff;
+  padding: 15px 25px;
+  text-align: center;
+  align-items: center;
+  font: 300 24px "Exo", sans-serif;
+  cursor: pointer;
+}
+.btnBaixo {
+  background: #000000;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 228px;
+  height: 58px;
+  position: absolute;
+  left: 158px;
+  top: 920px;
+}
+.buttonBaixo {
+  border: none;
+  background: none;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  align-items: center;
+  font: 300 24px "Exo", sans-serif;
+  cursor: pointer;
+}
+.buttonBaixoLogin {
+  border: none;
+  background: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-align: center;
+  align-items: center;
+  font: 300 24px "Exo", sans-serif;
+  cursor: pointer;
+}
+.ou {
+  color: #ffffff;
+  text-align: left;
+  font: 300 20px "Exo", sans-serif;
+  position: absolute;
+  left: 262px;
+  top: 877px;
+}
+.linEsq {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 117px;
+  height: 0px;
+  position: absolute;
+  left: 257px;
+  top: 891px;
+  transform-origin: 0 0;
+  transform: rotate(180deg) scale(1, 1);
+}
+.linDir {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 117px;
+  height: 0px;
+  position: absolute;
+  left: 405px;
+  top: 891px;
+  transform-origin: 0 0;
+  transform: rotate(180deg) scale(1, 1);
+}
+/* Area do usuario */
+.logo-inline {
+  width: 497px;
+  height: 60px;
+  position: absolute;
+  left: 7px;
+  top: 35px;
+  overflow: hidden;
+}
+.layer {
+  position: absolute;
+  left: 7.55px;
+  top: 10px;
+  overflow: visible;
+}
+.layer2 {
+  position: absolute;
+  left: 66.69px;
+  top: 10.67px;
+  overflow: visible;
+}
+.layer3 {
+  position: absolute;
+  left: 148.47px;
+  top: 10.67px;
+  overflow: visible;
+}
+.layer4 {
+  position: absolute;
+  left: 217.67px;
+  top: 10.67px;
+  overflow: visible;
+}
+.layer5 {
+  position: absolute;
+  left: 281.84px;
+  top: 10.67px;
+  overflow: visible;
+}
+.layer6 {
+  position: absolute;
+  inset: 0;
+}
+.layer7 {
+  width: 14.47px;
+  height: 24.67px;
+  position: static;
+}
+.layer8 {
+  position: absolute;
+  left: 390.68px;
+  top: 32px;
+  overflow: visible;
+}
+.layer10 {
+  width: 16.36px;
+  height: 24.67px;
+  position: static;
+}
+.layer11 {
+  position: absolute;
+  left: 408.92px;
+  top: 32px;
+  overflow: visible;
+}
+.layer13 {
+  width: 16.99px;
+  height: 24.67px;
+  position: static;
+}
+.layer14 {
+  position: absolute;
+  left: 429.06px;
+  top: 32px;
+  overflow: visible;
+}
+.layer16 {
+  position: absolute;
+  left: 451.07px;
+  top: 32px;
+  overflow: visible;
+}
+.linhaCabecario {
+  border-style: solid;
+  border-color: #fefefe;
+  border-width: 1px 0 0 0;
+  width: 1535px;;
+  position: absolute;
+  left: 0px;
+  top: 121px;
+}
+.mais {
+  position: absolute;
+  left: 47px;
+  top: 159px;
+  overflow: visible;
+}
+.pedido {
+  color: #ffffff;
+  text-align: left;
+  font: 400 10px "Inter", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 161px;
+}
+.reset{
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.lixeira {
+  overflow: visible;
+}
+.lapis {
+  overflow: visible;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #ffffff;
+  position:absolute;
+  top: 185px;
+}
+td, th {
+  color: #ffffff;
+  text-align: left;
+  font: 500 14px "Exo", sans-serif;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.fundo {
+  background: #323232;
+  border-radius: 25px;
+  width: 698px;
+  height: 700px;
+  position: absolute;
+  left: 398px;
+  top: 212px;
+}
+.editar-add {
+  color: #ffffff;
+  text-align: left;
+  font: 500 40px "Exo", sans-serif;
+  position: absolute;
+  left: 474px;
+  top: 316px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.txtbNomeP {
+  background: #4e4e4e;
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  padding-left: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 561px;
+  height: 55px;
+  position: absolute;
+  left: 458px;
+  top: 429px;
+}
+.nome-do-pedido {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 475px;
+  top: 402px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.txtbDescricao {
+  color: #ffffff;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  padding: 20px 10px 10px 10px;
+  background: #4e4e4e;
+  border-radius: 15px;
+  border: none;
+  width: 561px;
+  height: 242px;
+  position: absolute;
+  left: 458px;
+  top: 570px;
+  overflow-y: hidden;
+  resize: none;
+}
+.txtDesc {
+  color: #ffffff;;
+  text-align: left;
+  font: 500 20px "Exo", sans-serif;
+  position: absolute;
+  left: 474px;
+  top: 535px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.btnConcluido {
+  background: #4e4e4e;
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px "Exo", sans-serif;
+  border-radius: 10px;
+  border: none;
+  width: 110px;
+  height: 36px;
+  position: absolute;
+  left: 684px;
+  top: 848px;
+  cursor: pointer;
+}
