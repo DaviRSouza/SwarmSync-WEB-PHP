@@ -1,2 +1,3 @@
 # SwarmSync-WEB-PHP
-Sistema WEB da empresa fictícia de criação de softwares desktop Swarm Sync, Desenvolvido usando PHP é MySQL
+### Sistema WEB da empresa fictícia de criação de softwares desktop Swarm Sync, Desenvolvido usando PHP é MySQL
+Durante meu curso de Técnico em Informática no SENAC, eu Desenvolvi uma empresa fictícia especializada em software, com foco na criação de soluções Desktops utilizando C#. Aqui temos a parte onde nosso usuario seria recebido pelo nosso site, e contrataria os nossos serviços, O projeto incluiu a criação de um site, a implementação de um sistema de autenticação de usuários e a realização de operações básicas (CRUD) utilizando PHP puro para interagir com um banco MySQL
